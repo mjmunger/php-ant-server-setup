@@ -75,7 +75,7 @@ setupUser() {
 
 	cd /home/$1
 	echo "Checking out bfw into document root..."
-	svn co svn://svn.highpoweredhelp.com/bfw www
+	git clone https://github.com/mjmunger/php-ant.git www
 
 	echo "Making SSL and Log directories..."
 	mkdir ssl
